@@ -1,0 +1,9 @@
+2023-10-03 18:55:24,767 root ERROR  zeroDIV error occor
+2023-10-03 18:57:49,950 root ERROR  zeroDIV error occor
+2023-10-03 18:57:52,773 root INFO  all good
+2023-10-03 19:03:18,254 root INFO  all good
+2023-10-03 19:03:27,255 root ERROR  zeroDIV error occor
+2023-10-03 19:07:57,017 root ERROR  error : 'grape'
+2023-10-03 19:07:57,037 root ERROR  error : list index out of range
+2023-10-03 19:14:26,835 root ERROR  error : No module named 'non_existent_module'
+2023-10-03 19:14:26,844 root ERROR  error : No module named 'non_existent_module'

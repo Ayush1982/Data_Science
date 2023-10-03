@@ -1,0 +1,1386 @@
+"When we inherit from Exception, we follow Python's conventions, making your code more understandable for other developers. It also help us custom exceptions in using standard error-handling techniques like try and except.Inheriting from Exception promotes compatibility with Python's built-in error-handling tools and third-party libraries. Its like speaking the same language as the rest of the Python ecosystem."
+-------------------------------------------
+"<class 'BaseException'>"
+-------------------------------------------
+"    <class 'BaseExceptionGroup'>"
+-------------------------------------------
+"        <class 'ExceptionGroup'>"
+-------------------------------------------
+"    <class 'Exception'>"
+-------------------------------------------
+"        <class 'ArithmeticError'>"
+-------------------------------------------
+"            <class 'FloatingPointError'>"
+-------------------------------------------
+"            <class 'OverflowError'>"
+-------------------------------------------
+"            <class 'ZeroDivisionError'>"
+-------------------------------------------
+"                <class 'decimal.DivisionByZero'>"
+-------------------------------------------
+"                <class 'decimal.DivisionUndefined'>"
+-------------------------------------------
+"            <class 'decimal.DecimalException'>"
+-------------------------------------------
+"                <class 'decimal.Clamped'>"
+-------------------------------------------
+"                <class 'decimal.Rounded'>"
+-------------------------------------------
+"                    <class 'decimal.Underflow'>"
+-------------------------------------------
+"                    <class 'decimal.Overflow'>"
+-------------------------------------------
+"                <class 'decimal.Inexact'>"
+-------------------------------------------
+"                    <class 'decimal.Underflow'>"
+-------------------------------------------
+"                    <class 'decimal.Overflow'>"
+-------------------------------------------
+"                <class 'decimal.Subnormal'>"
+-------------------------------------------
+"                    <class 'decimal.Underflow'>"
+-------------------------------------------
+"                <class 'decimal.DivisionByZero'>"
+-------------------------------------------
+"                <class 'decimal.FloatOperation'>"
+-------------------------------------------
+"                <class 'decimal.InvalidOperation'>"
+-------------------------------------------
+"                    <class 'decimal.ConversionSyntax'>"
+-------------------------------------------
+"                    <class 'decimal.DivisionImpossible'>"
+-------------------------------------------
+"                    <class 'decimal.DivisionUndefined'>"
+-------------------------------------------
+"                    <class 'decimal.InvalidContext'>"
+-------------------------------------------
+"        <class 'AssertionError'>"
+-------------------------------------------
+"        <class 'AttributeError'>"
+-------------------------------------------
+"            <class 'dataclasses.FrozenInstanceError'>"
+-------------------------------------------
+"        <class 'BufferError'>"
+-------------------------------------------
+"        <class 'EOFError'>"
+-------------------------------------------
+"            <class 'asyncio.exceptions.IncompleteReadError'>"
+-------------------------------------------
+"        <class 'ImportError'>"
+-------------------------------------------
+"            <class 'ModuleNotFoundError'>"
+-------------------------------------------
+"                <class 'importlib.metadata.PackageNotFoundError'>"
+-------------------------------------------
+"            <class 'zipimport.ZipImportError'>"
+-------------------------------------------
+"        <class 'LookupError'>"
+-------------------------------------------
+"            <class 'IndexError'>"
+-------------------------------------------
+"            <class 'KeyError'>"
+-------------------------------------------
+"                <class 'jupyter_client.kernelspec.NoSuchKernel'>"
+-------------------------------------------
+"                <class 'IPython.terminal.pt_inputhooks.UnknownBackend'>"
+-------------------------------------------
+"            <class 'encodings.CodecRegistryError'>"
+-------------------------------------------
+"        <class 'MemoryError'>"
+-------------------------------------------
+"        <class 'NameError'>"
+-------------------------------------------
+"            <class 'UnboundLocalError'>"
+-------------------------------------------
+"        <class 'OSError'>"
+-------------------------------------------
+"            <class 'BlockingIOError'>"
+-------------------------------------------
+"            <class 'ChildProcessError'>"
+-------------------------------------------
+"            <class 'ConnectionError'>"
+-------------------------------------------
+"                <class 'BrokenPipeError'>"
+-------------------------------------------
+"                <class 'ConnectionAbortedError'>"
+-------------------------------------------
+"                <class 'ConnectionRefusedError'>"
+-------------------------------------------
+"                <class 'ConnectionResetError'>"
+-------------------------------------------
+"                    <class 'http.client.RemoteDisconnected'>"
+-------------------------------------------
+"            <class 'FileExistsError'>"
+-------------------------------------------
+"            <class 'FileNotFoundError'>"
+-------------------------------------------
+"            <class 'InterruptedError'>"
+-------------------------------------------
+"                <class 'zmq.error.InterruptedSystemCall'>"
+-------------------------------------------
+"            <class 'IsADirectoryError'>"
+-------------------------------------------
+"            <class 'NotADirectoryError'>"
+-------------------------------------------
+"            <class 'PermissionError'>"
+-------------------------------------------
+"            <class 'ProcessLookupError'>"
+-------------------------------------------
+"            <class 'TimeoutError'>"
+-------------------------------------------
+"            <class 'io.UnsupportedOperation'>"
+-------------------------------------------
+"            <class 'socket.herror'>"
+-------------------------------------------
+"            <class 'socket.gaierror'>"
+-------------------------------------------
+"            <class 'ssl.SSLError'>"
+-------------------------------------------
+"                <class 'ssl.SSLCertVerificationError'>"
+-------------------------------------------
+"                <class 'ssl.SSLZeroReturnError'>"
+-------------------------------------------
+"                <class 'ssl.SSLWantWriteError'>"
+-------------------------------------------
+"                <class 'ssl.SSLWantReadError'>"
+-------------------------------------------
+"                <class 'ssl.SSLSyscallError'>"
+-------------------------------------------
+"                <class 'ssl.SSLEOFError'>"
+-------------------------------------------
+"            <class 'shutil.Error'>"
+-------------------------------------------
+"                <class 'shutil.SameFileError'>"
+-------------------------------------------
+"            <class 'shutil.SpecialFileError'>"
+-------------------------------------------
+"            <class 'shutil.ExecError'>"
+-------------------------------------------
+"            <class 'shutil.ReadError'>"
+-------------------------------------------
+"            <class 'urllib.error.URLError'>"
+-------------------------------------------
+"                <class 'urllib.error.HTTPError'>"
+-------------------------------------------
+"                <class 'urllib.error.ContentTooShortError'>"
+-------------------------------------------
+"            <class 'gzip.BadGzipFile'>"
+-------------------------------------------
+"        <class 'ReferenceError'>"
+-------------------------------------------
+"        <class 'RuntimeError'>"
+-------------------------------------------
+"            <class 'NotImplementedError'>"
+-------------------------------------------
+"                <class 'zmq.error.ZMQVersionError'>"
+-------------------------------------------
+"                <class 'IPython.core.error.StdinNotImplementedError'>"
+-------------------------------------------
+"            <class 'RecursionError'>"
+-------------------------------------------
+"            <class '_frozen_importlib._DeadlockError'>"
+-------------------------------------------
+"            <class 'threading.BrokenBarrierError'>"
+-------------------------------------------
+"            <class 'concurrent.futures._base.BrokenExecutor'>"
+-------------------------------------------
+"                <class 'concurrent.futures.thread.BrokenThreadPool'>"
+-------------------------------------------
+"            <class 'asyncio.exceptions.SendfileNotAvailableError'>"
+-------------------------------------------
+"            <class 'asyncio.exceptions.BrokenBarrierError'>"
+-------------------------------------------
+"            <class '_pydevd_bundle.pydevd_vars.VariableError'>"
+-------------------------------------------
+"        <class 'StopAsyncIteration'>"
+-------------------------------------------
+"        <class 'StopIteration'>"
+-------------------------------------------
+"        <class 'SyntaxError'>"
+-------------------------------------------
+"            <class 'IndentationError'>"
+-------------------------------------------
+"                <class 'TabError'>"
+-------------------------------------------
+"        <class 'SystemError'>"
+-------------------------------------------
+"            <class 'encodings.CodecRegistryError'>"
+-------------------------------------------
+"        <class 'TypeError'>"
+-------------------------------------------
+"            <class 'decimal.FloatOperation'>"
+-------------------------------------------
+"            <class 'email.errors.MultipartConversionError'>"
+-------------------------------------------
+"        <class 'ValueError'>"
+-------------------------------------------
+"            <class 'UnicodeError'>"
+-------------------------------------------
+"                <class 'UnicodeDecodeError'>"
+-------------------------------------------
+"                <class 'UnicodeEncodeError'>"
+-------------------------------------------
+"                <class 'UnicodeTranslateError'>"
+-------------------------------------------
+"            <class 'io.UnsupportedOperation'>"
+-------------------------------------------
+"            <class 'json.decoder.JSONDecodeError'>"
+-------------------------------------------
+"            <class 'ssl.SSLCertVerificationError'>"
+-------------------------------------------
+"            <class 'binascii.Error'>"
+-------------------------------------------
+"            <class 'ipaddress.AddressValueError'>"
+-------------------------------------------
+"            <class 'ipaddress.NetmaskValueError'>"
+-------------------------------------------
+"            <class '_hashlib.UnsupportedDigestmodError'>"
+-------------------------------------------
+"            <class 'calendar.IllegalMonthError'>"
+-------------------------------------------
+"            <class 'calendar.IllegalWeekdayError'>"
+-------------------------------------------
+"            <class 'dateutil.parser._parser.ParserError'>"
+-------------------------------------------
+"            <class 'email.errors.MessageDefect'>"
+-------------------------------------------
+"                <class 'email.errors.NoBoundaryInMultipartDefect'>"
+-------------------------------------------
+"                <class 'email.errors.StartBoundaryNotFoundDefect'>"
+-------------------------------------------
+"                <class 'email.errors.CloseBoundaryNotFoundDefect'>"
+-------------------------------------------
+"                <class 'email.errors.FirstHeaderLineIsContinuationDefect'>"
+-------------------------------------------
+"                <class 'email.errors.MisplacedEnvelopeHeaderDefect'>"
+-------------------------------------------
+"                <class 'email.errors.MissingHeaderBodySeparatorDefect'>"
+-------------------------------------------
+"                <class 'email.errors.MultipartInvariantViolationDefect'>"
+-------------------------------------------
+"                <class 'email.errors.InvalidMultipartContentTransferEncodingDefect'>"
+-------------------------------------------
+"                <class 'email.errors.UndecodableBytesDefect'>"
+-------------------------------------------
+"                <class 'email.errors.InvalidBase64PaddingDefect'>"
+-------------------------------------------
+"                <class 'email.errors.InvalidBase64CharactersDefect'>"
+-------------------------------------------
+"                <class 'email.errors.InvalidBase64LengthDefect'>"
+-------------------------------------------
+"                <class 'email.errors.HeaderDefect'>"
+-------------------------------------------
+"                    <class 'email.errors.InvalidHeaderDefect'>"
+-------------------------------------------
+"                    <class 'email.errors.HeaderMissingRequiredValue'>"
+-------------------------------------------
+"                    <class 'email.errors.NonPrintableDefect'>"
+-------------------------------------------
+"                    <class 'email.errors.ObsoleteHeaderDefect'>"
+-------------------------------------------
+"                    <class 'email.errors.NonASCIILocalPartDefect'>"
+-------------------------------------------
+"                    <class 'email.errors.InvalidDateDefect'>"
+-------------------------------------------
+"            <class 'pygments.util.ClassNotFound'>"
+-------------------------------------------
+"            <class 'IPython.lib.clipboard.ClipboardEmpty'>"
+-------------------------------------------
+"            <class 'IPython.core.magics.code.MacroToEdit'>"
+-------------------------------------------
+"            <class 'packaging.version.InvalidVersion'>"
+-------------------------------------------
+"        <class 'Warning'>"
+-------------------------------------------
+"            <class 'BytesWarning'>"
+-------------------------------------------
+"            <class 'DeprecationWarning'>"
+-------------------------------------------
+"                <class 'IPython.core.interactiveshell.ProvisionalWarning'>"
+-------------------------------------------
+"            <class 'EncodingWarning'>"
+-------------------------------------------
+"            <class 'FutureWarning'>"
+-------------------------------------------
+"                <class 'IPython.core.completer.ProvisionalCompleterWarning'>"
+-------------------------------------------
+"            <class 'ImportWarning'>"
+-------------------------------------------
+"            <class 'PendingDeprecationWarning'>"
+-------------------------------------------
+"            <class 'ResourceWarning'>"
+-------------------------------------------
+"            <class 'RuntimeWarning'>"
+-------------------------------------------
+"                <class 'zmq.asyncio.ProactorSelectorThreadWarning'>"
+-------------------------------------------
+"                <class 'dateutil.parser._parser.UnknownTimezoneWarning'>"
+-------------------------------------------
+"            <class 'SyntaxWarning'>"
+-------------------------------------------
+"            <class 'UnicodeWarning'>"
+-------------------------------------------
+"            <class 'UserWarning'>"
+-------------------------------------------
+"                <class 'getpass.GetPassWarning'>"
+-------------------------------------------
+"                <class 'IPython.core.formatters.FormatterWarning'>"
+-------------------------------------------
+"            <class 'dateutil.tz.DeprecatedTzFormatWarning'>"
+-------------------------------------------
+"        <class 'ExceptionGroup'>"
+-------------------------------------------
+"        <class 'warnings._OptionError'>"
+-------------------------------------------
+"        <class 'runpy._Error'>"
+-------------------------------------------
+"        <class 're.error'>"
+-------------------------------------------
+"        <class 'locale.Error'>"
+-------------------------------------------
+"        <class 'subprocess.SubprocessError'>"
+-------------------------------------------
+"            <class 'subprocess.CalledProcessError'>"
+-------------------------------------------
+"            <class 'subprocess.TimeoutExpired'>"
+-------------------------------------------
+"        <class 'zmq.error.ZMQBaseError'>"
+-------------------------------------------
+"            <class 'zmq.error.ZMQError'>"
+-------------------------------------------
+"                <class 'zmq.error.ContextTerminated'>"
+-------------------------------------------
+"                <class 'zmq.error.Again'>"
+-------------------------------------------
+"                <class 'zmq.error.InterruptedSystemCall'>"
+-------------------------------------------
+"            <class 'zmq.error.ZMQBindError'>"
+-------------------------------------------
+"            <class 'zmq.error.NotDone'>"
+-------------------------------------------
+"        <class 'copy.Error'>"
+-------------------------------------------
+"        <class 'struct.error'>"
+-------------------------------------------
+"        <class '_pickle.PickleError'>"
+-------------------------------------------
+"            <class '_pickle.PicklingError'>"
+-------------------------------------------
+"            <class '_pickle.UnpicklingError'>"
+-------------------------------------------
+"        <class 'pickle._Stop'>"
+-------------------------------------------
+"        <class 'tokenize.TokenError'>"
+-------------------------------------------
+"        <class 'tokenize.StopTokenizing'>"
+-------------------------------------------
+"        <class 'concurrent.futures._base.Error'>"
+-------------------------------------------
+"            <class 'concurrent.futures._base.CancelledError'>"
+-------------------------------------------
+"            <class 'concurrent.futures._base.InvalidStateError'>"
+-------------------------------------------
+"        <class 'socket._GiveupOnSendfile'>"
+-------------------------------------------
+"        <class 'binascii.Incomplete'>"
+-------------------------------------------
+"        <class 'inspect.ClassFoundException'>"
+-------------------------------------------
+"        <class 'inspect.EndOfBlock'>"
+-------------------------------------------
+"        <class 'asyncio.exceptions.InvalidStateError'>"
+-------------------------------------------
+"        <class 'asyncio.exceptions.LimitOverrunError'>"
+-------------------------------------------
+"        <class 'asyncio.queues.QueueEmpty'>"
+-------------------------------------------
+"        <class 'asyncio.queues.QueueFull'>"
+-------------------------------------------
+"        <class 'zlib.error'>"
+-------------------------------------------
+"        <class '_lzma.LZMAError'>"
+-------------------------------------------
+"        <class 'shutil.RegistryError'>"
+-------------------------------------------
+"        <class 'shutil._GiveupOnFastCopy'>"
+-------------------------------------------
+"        <class 'traitlets.traitlets.TraitError'>"
+-------------------------------------------
+"        <class '_queue.Empty'>"
+-------------------------------------------
+"        <class 'queue.Full'>"
+-------------------------------------------
+"        <class 'ctypes.ArgumentError'>"
+-------------------------------------------
+"        <class '_ctypes.COMError'>"
+-------------------------------------------
+"        <class 'tornado.concurrent.ReturnValueIgnoredError'>"
+-------------------------------------------
+"        <class 'argparse.ArgumentError'>"
+-------------------------------------------
+"        <class 'argparse.ArgumentTypeError'>"
+-------------------------------------------
+"        <class 'traitlets.config.loader.ConfigError'>"
+-------------------------------------------
+"            <class 'traitlets.config.loader.ConfigLoaderError'>"
+-------------------------------------------
+"                <class 'traitlets.config.loader.ArgumentError'>"
+-------------------------------------------
+"            <class 'traitlets.config.loader.ConfigFileNotFound'>"
+-------------------------------------------
+"        <class 'traitlets.config.configurable.ConfigurableError'>"
+-------------------------------------------
+"            <class 'traitlets.config.configurable.MultipleInstanceError'>"
+-------------------------------------------
+"        <class 'traitlets.config.application.ApplicationError'>"
+-------------------------------------------
+"        <class 'jupyter_client.channels.InvalidPortNumber'>"
+-------------------------------------------
+"        <class 'jupyter_client.localinterfaces.NoIPAddresses'>"
+-------------------------------------------
+"        <class '_csv.Error'>"
+-------------------------------------------
+"        <class 'zipfile.BadZipFile'>"
+-------------------------------------------
+"        <class 'zipfile.LargeZipFile'>"
+-------------------------------------------
+"        <class 'email.errors.MessageError'>"
+-------------------------------------------
+"            <class 'email.errors.MessageParseError'>"
+-------------------------------------------
+"                <class 'email.errors.HeaderParseError'>"
+-------------------------------------------
+"                <class 'email.errors.BoundaryError'>"
+-------------------------------------------
+"            <class 'email.errors.MultipartConversionError'>"
+-------------------------------------------
+"            <class 'email.errors.CharsetError'>"
+-------------------------------------------
+"        <class 'jupyter_client.multikernelmanager.DuplicateKernelError'>"
+-------------------------------------------
+"        <class 'pydoc.ErrorDuringImport'>"
+-------------------------------------------
+"        <class 'executing.executing.NotOneValueFound'>"
+-------------------------------------------
+"        <class 'executing._exceptions.KnownIssue'>"
+-------------------------------------------
+"        <class 'executing._exceptions.VerifierFailure'>"
+-------------------------------------------
+"        <class 'pure_eval.utils.CannotEval'>"
+-------------------------------------------
+"        <class 'pygments.util.OptionError'>"
+-------------------------------------------
+"        <class 'bdb.BdbQuit'>"
+-------------------------------------------
+"        <class 'pdb.Restart'>"
+-------------------------------------------
+"        <class 'IPython.utils.process.FindCmdError'>"
+-------------------------------------------
+"        <class 'IPython.utils.path.HomeDirError'>"
+-------------------------------------------
+"        <class 'IPython.core.profiledir.ProfileDirError'>"
+-------------------------------------------
+"        <class 'IPython.core.error.IPythonCoreError'>"
+-------------------------------------------
+"            <class 'IPython.core.error.TryNext'>"
+-------------------------------------------
+"            <class 'IPython.core.error.UsageError'>"
+-------------------------------------------
+"            <class 'IPython.core.error.StdinNotImplementedError'>"
+-------------------------------------------
+"        <class 'IPython.core.error.InputRejected'>"
+-------------------------------------------
+"        <class 'getopt.GetoptError'>"
+-------------------------------------------
+"        <class 'pygments.filters.ErrorToken'>"
+-------------------------------------------
+"        <class 'IPython.core.prefilter.PrefilterError'>"
+-------------------------------------------
+"        <class 'IPython.core.alias.AliasError'>"
+-------------------------------------------
+"            <class 'IPython.core.alias.InvalidAliasError'>"
+-------------------------------------------
+"        <class 'sqlite3.Error'>"
+-------------------------------------------
+"            <class 'sqlite3.InterfaceError'>"
+-------------------------------------------
+"            <class 'sqlite3.DatabaseError'>"
+-------------------------------------------
+"                <class 'sqlite3.InternalError'>"
+-------------------------------------------
+"                <class 'sqlite3.OperationalError'>"
+-------------------------------------------
+"                <class 'sqlite3.ProgrammingError'>"
+-------------------------------------------
+"                <class 'sqlite3.IntegrityError'>"
+-------------------------------------------
+"                <class 'sqlite3.DataError'>"
+-------------------------------------------
+"                <class 'sqlite3.NotSupportedError'>"
+-------------------------------------------
+"        <class 'sqlite3.Warning'>"
+-------------------------------------------
+"        <class 'IPython.core.interactiveshell.SpaceInInput'>"
+-------------------------------------------
+"        <class 'xml.dom.DOMException'>"
+-------------------------------------------
+"            <class 'xml.dom.IndexSizeErr'>"
+-------------------------------------------
+"            <class 'xml.dom.DomstringSizeErr'>"
+-------------------------------------------
+"            <class 'xml.dom.HierarchyRequestErr'>"
+-------------------------------------------
+"            <class 'xml.dom.WrongDocumentErr'>"
+-------------------------------------------
+"            <class 'xml.dom.InvalidCharacterErr'>"
+-------------------------------------------
+"            <class 'xml.dom.NoDataAllowedErr'>"
+-------------------------------------------
+"            <class 'xml.dom.NoModificationAllowedErr'>"
+-------------------------------------------
+"            <class 'xml.dom.NotFoundErr'>"
+-------------------------------------------
+"            <class 'xml.dom.NotSupportedErr'>"
+-------------------------------------------
+"            <class 'xml.dom.InuseAttributeErr'>"
+-------------------------------------------
+"            <class 'xml.dom.InvalidStateErr'>"
+-------------------------------------------
+"            <class 'xml.dom.SyntaxErr'>"
+-------------------------------------------
+"            <class 'xml.dom.InvalidModificationErr'>"
+-------------------------------------------
+"            <class 'xml.dom.NamespaceErr'>"
+-------------------------------------------
+"            <class 'xml.dom.InvalidAccessErr'>"
+-------------------------------------------
+"            <class 'xml.dom.ValidationErr'>"
+-------------------------------------------
+"        <class 'prompt_toolkit.validation.ValidationError'>"
+-------------------------------------------
+"        <class 'prompt_toolkit.buffer.EditReadOnlyBuffer'>"
+-------------------------------------------
+"        <class 'prompt_toolkit.buffer._Retry'>"
+-------------------------------------------
+"        <class 'prompt_toolkit.layout.layout.InvalidLayoutError'>"
+-------------------------------------------
+"        <class 'prompt_toolkit.renderer.HeightIsUnknownError'>"
+-------------------------------------------
+"        <class 'IPython.core.guarded_eval.GuardRejection'>"
+-------------------------------------------
+"        <class 'parso.parser.ParserSyntaxError'>"
+-------------------------------------------
+"        <class 'parso.parser.InternalParseError'>"
+-------------------------------------------
+"        <class 'parso.python.diff._PositionUpdatingFinished'>"
+-------------------------------------------
+"        <class 'jedi.inference.helpers.SimpleGetItemNotFound'>"
+-------------------------------------------
+"        <class 'jedi.inference.utils.UncaughtAttributeError'>"
+-------------------------------------------
+"        <class 'jedi.inference.base_value.HasNoContext'>"
+-------------------------------------------
+"        <class 'jedi.inference.arguments.ParamIssue'>"
+-------------------------------------------
+"        <class 'jedi.api.exceptions._JediError'>"
+-------------------------------------------
+"            <class 'jedi.api.exceptions.InternalError'>"
+-------------------------------------------
+"            <class 'jedi.api.exceptions.WrongVersion'>"
+-------------------------------------------
+"            <class 'jedi.api.exceptions.RefactoringError'>"
+-------------------------------------------
+"        <class 'jedi.api.helpers.OnErrorLeaf'>"
+-------------------------------------------
+"        <class 'jedi.api.environment.InvalidPythonEnvironment'>"
+-------------------------------------------
+"        <class 'http.client.HTTPException'>"
+-------------------------------------------
+"            <class 'http.client.NotConnected'>"
+-------------------------------------------
+"            <class 'http.client.InvalidURL'>"
+-------------------------------------------
+"            <class 'http.client.UnknownProtocol'>"
+-------------------------------------------
+"            <class 'http.client.UnknownTransferEncoding'>"
+-------------------------------------------
+"            <class 'http.client.UnimplementedFileMode'>"
+-------------------------------------------
+"            <class 'http.client.IncompleteRead'>"
+-------------------------------------------
+"            <class 'http.client.ImproperConnectionState'>"
+-------------------------------------------
+"                <class 'http.client.CannotSendRequest'>"
+-------------------------------------------
+"                <class 'http.client.CannotSendHeader'>"
+-------------------------------------------
+"                <class 'http.client.ResponseNotReady'>"
+-------------------------------------------
+"            <class 'http.client.BadStatusLine'>"
+-------------------------------------------
+"                <class 'http.client.RemoteDisconnected'>"
+-------------------------------------------
+"            <class 'http.client.LineTooLong'>"
+-------------------------------------------
+"        <class 'IPython.core.magics.code.InteractivelyDefined'>"
+-------------------------------------------
+"        <class 'IPython.terminal.embed.KillEmbedded'>"
+-------------------------------------------
+"        <class 'psutil.Error'>"
+-------------------------------------------
+"            <class 'psutil.NoSuchProcess'>"
+-------------------------------------------
+"                <class 'psutil.ZombieProcess'>"
+-------------------------------------------
+"            <class 'psutil.AccessDenied'>"
+-------------------------------------------
+"            <class 'psutil.TimeoutExpired'>"
+-------------------------------------------
+"        <class '_psutil_windows.Error'>"
+-------------------------------------------
+"        <class '_psutil_windows.TimeoutExpired'>"
+-------------------------------------------
+"        <class '_psutil_windows.TimeoutAbandoned'>"
+-------------------------------------------
+"        <class 'tornado.gen.KeyReuseError'>"
+-------------------------------------------
+"        <class 'tornado.gen.UnknownKeyError'>"
+-------------------------------------------
+"        <class 'tornado.gen.LeakedCallbackError'>"
+-------------------------------------------
+"        <class 'tornado.gen.BadYieldError'>"
+-------------------------------------------
+"        <class 'tornado.gen.ReturnValueIgnoredError'>"
+-------------------------------------------
+"        <class 'tornado.gen.Return'>"
+-------------------------------------------
+"        <class 'tornado.queues.QueueEmpty'>"
+-------------------------------------------
+"        <class 'tornado.queues.QueueFull'>"
+-------------------------------------------
+"        <class '_pydev_bundle._pydev_saved_modules.DebuggerInitializationError'>"
+-------------------------------------------
+"        <class 'xml.parsers.expat.ExpatError'>"
+-------------------------------------------
+"        <class 'xmlrpc.client.Error'>"
+-------------------------------------------
+"            <class 'xmlrpc.client.ProtocolError'>"
+-------------------------------------------
+"            <class 'xmlrpc.client.ResponseError'>"
+-------------------------------------------
+"            <class 'xmlrpc.client.Fault'>"
+-------------------------------------------
+"        <class '_pydevd_bundle.pydevd_runpy._Error'>"
+-------------------------------------------
+"        <class '_pydevd_bundle.pydevd_resolver.UnableToResolveVariableException'>"
+-------------------------------------------
+"        <class '_pydev_bundle.pydev_monkey.InvalidTypeInArgsException'>"
+-------------------------------------------
+"    <class 'GeneratorExit'>"
+-------------------------------------------
+"    <class 'KeyboardInterrupt'>"
+-------------------------------------------
+"    <class 'SystemExit'>"
+-------------------------------------------
+"    <class 'asyncio.exceptions.CancelledError'>"
+-------------------------------------------
+"When we inherit from Exception, we follow Python's conventions, making your code more understandable for other developers. It also help us custom exceptions in using standard error-handling techniques like try and except.Inheriting from Exception promotes compatibility with Python's built-in error-handling tools and third-party libraries. Its like speaking the same language as the rest of the Python ecosystem."
+-------------------------------------------
+"<class 'BaseException'>"
+-------------------------------------------
+"    <class 'BaseExceptionGroup'>"
+-------------------------------------------
+"        <class 'ExceptionGroup'>"
+-------------------------------------------
+"    <class 'Exception'>"
+-------------------------------------------
+"        <class 'ArithmeticError'>"
+-------------------------------------------
+"            <class 'FloatingPointError'>"
+-------------------------------------------
+"            <class 'OverflowError'>"
+-------------------------------------------
+"            <class 'ZeroDivisionError'>"
+-------------------------------------------
+"                <class 'decimal.DivisionByZero'>"
+-------------------------------------------
+"                <class 'decimal.DivisionUndefined'>"
+-------------------------------------------
+"            <class 'decimal.DecimalException'>"
+-------------------------------------------
+"                <class 'decimal.Clamped'>"
+-------------------------------------------
+"                <class 'decimal.Rounded'>"
+-------------------------------------------
+"                    <class 'decimal.Underflow'>"
+-------------------------------------------
+"                    <class 'decimal.Overflow'>"
+-------------------------------------------
+"                <class 'decimal.Inexact'>"
+-------------------------------------------
+"                    <class 'decimal.Underflow'>"
+-------------------------------------------
+"                    <class 'decimal.Overflow'>"
+-------------------------------------------
+"                <class 'decimal.Subnormal'>"
+-------------------------------------------
+"                    <class 'decimal.Underflow'>"
+-------------------------------------------
+"                <class 'decimal.DivisionByZero'>"
+-------------------------------------------
+"                <class 'decimal.FloatOperation'>"
+-------------------------------------------
+"                <class 'decimal.InvalidOperation'>"
+-------------------------------------------
+"                    <class 'decimal.ConversionSyntax'>"
+-------------------------------------------
+"                    <class 'decimal.DivisionImpossible'>"
+-------------------------------------------
+"                    <class 'decimal.DivisionUndefined'>"
+-------------------------------------------
+"                    <class 'decimal.InvalidContext'>"
+-------------------------------------------
+"        <class 'AssertionError'>"
+-------------------------------------------
+"        <class 'AttributeError'>"
+-------------------------------------------
+"            <class 'dataclasses.FrozenInstanceError'>"
+-------------------------------------------
+"        <class 'BufferError'>"
+-------------------------------------------
+"        <class 'EOFError'>"
+-------------------------------------------
+"            <class 'asyncio.exceptions.IncompleteReadError'>"
+-------------------------------------------
+"        <class 'ImportError'>"
+-------------------------------------------
+"            <class 'ModuleNotFoundError'>"
+-------------------------------------------
+"                <class 'importlib.metadata.PackageNotFoundError'>"
+-------------------------------------------
+"            <class 'zipimport.ZipImportError'>"
+-------------------------------------------
+"        <class 'LookupError'>"
+-------------------------------------------
+"            <class 'IndexError'>"
+-------------------------------------------
+"            <class 'KeyError'>"
+-------------------------------------------
+"                <class 'jupyter_client.kernelspec.NoSuchKernel'>"
+-------------------------------------------
+"                <class 'IPython.terminal.pt_inputhooks.UnknownBackend'>"
+-------------------------------------------
+"            <class 'encodings.CodecRegistryError'>"
+-------------------------------------------
+"        <class 'MemoryError'>"
+-------------------------------------------
+"        <class 'NameError'>"
+-------------------------------------------
+"            <class 'UnboundLocalError'>"
+-------------------------------------------
+"        <class 'OSError'>"
+-------------------------------------------
+"            <class 'BlockingIOError'>"
+-------------------------------------------
+"            <class 'ChildProcessError'>"
+-------------------------------------------
+"            <class 'ConnectionError'>"
+-------------------------------------------
+"                <class 'BrokenPipeError'>"
+-------------------------------------------
+"                <class 'ConnectionAbortedError'>"
+-------------------------------------------
+"                <class 'ConnectionRefusedError'>"
+-------------------------------------------
+"                <class 'ConnectionResetError'>"
+-------------------------------------------
+"                    <class 'http.client.RemoteDisconnected'>"
+-------------------------------------------
+"            <class 'FileExistsError'>"
+-------------------------------------------
+"            <class 'FileNotFoundError'>"
+-------------------------------------------
+"            <class 'InterruptedError'>"
+-------------------------------------------
+"                <class 'zmq.error.InterruptedSystemCall'>"
+-------------------------------------------
+"            <class 'IsADirectoryError'>"
+-------------------------------------------
+"            <class 'NotADirectoryError'>"
+-------------------------------------------
+"            <class 'PermissionError'>"
+-------------------------------------------
+"            <class 'ProcessLookupError'>"
+-------------------------------------------
+"            <class 'TimeoutError'>"
+-------------------------------------------
+"            <class 'io.UnsupportedOperation'>"
+-------------------------------------------
+"            <class 'socket.herror'>"
+-------------------------------------------
+"            <class 'socket.gaierror'>"
+-------------------------------------------
+"            <class 'ssl.SSLError'>"
+-------------------------------------------
+"                <class 'ssl.SSLCertVerificationError'>"
+-------------------------------------------
+"                <class 'ssl.SSLZeroReturnError'>"
+-------------------------------------------
+"                <class 'ssl.SSLWantWriteError'>"
+-------------------------------------------
+"                <class 'ssl.SSLWantReadError'>"
+-------------------------------------------
+"                <class 'ssl.SSLSyscallError'>"
+-------------------------------------------
+"                <class 'ssl.SSLEOFError'>"
+-------------------------------------------
+"            <class 'shutil.Error'>"
+-------------------------------------------
+"                <class 'shutil.SameFileError'>"
+-------------------------------------------
+"            <class 'shutil.SpecialFileError'>"
+-------------------------------------------
+"            <class 'shutil.ExecError'>"
+-------------------------------------------
+"            <class 'shutil.ReadError'>"
+-------------------------------------------
+"            <class 'urllib.error.URLError'>"
+-------------------------------------------
+"                <class 'urllib.error.HTTPError'>"
+-------------------------------------------
+"                <class 'urllib.error.ContentTooShortError'>"
+-------------------------------------------
+"            <class 'gzip.BadGzipFile'>"
+-------------------------------------------
+"        <class 'ReferenceError'>"
+-------------------------------------------
+"        <class 'RuntimeError'>"
+-------------------------------------------
+"            <class 'NotImplementedError'>"
+-------------------------------------------
+"                <class 'zmq.error.ZMQVersionError'>"
+-------------------------------------------
+"                <class 'IPython.core.error.StdinNotImplementedError'>"
+-------------------------------------------
+"            <class 'RecursionError'>"
+-------------------------------------------
+"            <class '_frozen_importlib._DeadlockError'>"
+-------------------------------------------
+"            <class 'threading.BrokenBarrierError'>"
+-------------------------------------------
+"            <class 'concurrent.futures._base.BrokenExecutor'>"
+-------------------------------------------
+"                <class 'concurrent.futures.thread.BrokenThreadPool'>"
+-------------------------------------------
+"            <class 'asyncio.exceptions.SendfileNotAvailableError'>"
+-------------------------------------------
+"            <class 'asyncio.exceptions.BrokenBarrierError'>"
+-------------------------------------------
+"            <class '_pydevd_bundle.pydevd_vars.VariableError'>"
+-------------------------------------------
+"        <class 'StopAsyncIteration'>"
+-------------------------------------------
+"        <class 'StopIteration'>"
+-------------------------------------------
+"        <class 'SyntaxError'>"
+-------------------------------------------
+"            <class 'IndentationError'>"
+-------------------------------------------
+"                <class 'TabError'>"
+-------------------------------------------
+"        <class 'SystemError'>"
+-------------------------------------------
+"            <class 'encodings.CodecRegistryError'>"
+-------------------------------------------
+"        <class 'TypeError'>"
+-------------------------------------------
+"            <class 'decimal.FloatOperation'>"
+-------------------------------------------
+"            <class 'email.errors.MultipartConversionError'>"
+-------------------------------------------
+"        <class 'ValueError'>"
+-------------------------------------------
+"            <class 'UnicodeError'>"
+-------------------------------------------
+"                <class 'UnicodeDecodeError'>"
+-------------------------------------------
+"                <class 'UnicodeEncodeError'>"
+-------------------------------------------
+"                <class 'UnicodeTranslateError'>"
+-------------------------------------------
+"            <class 'io.UnsupportedOperation'>"
+-------------------------------------------
+"            <class 'json.decoder.JSONDecodeError'>"
+-------------------------------------------
+"            <class 'ssl.SSLCertVerificationError'>"
+-------------------------------------------
+"            <class 'binascii.Error'>"
+-------------------------------------------
+"            <class 'ipaddress.AddressValueError'>"
+-------------------------------------------
+"            <class 'ipaddress.NetmaskValueError'>"
+-------------------------------------------
+"            <class '_hashlib.UnsupportedDigestmodError'>"
+-------------------------------------------
+"            <class 'calendar.IllegalMonthError'>"
+-------------------------------------------
+"            <class 'calendar.IllegalWeekdayError'>"
+-------------------------------------------
+"            <class 'dateutil.parser._parser.ParserError'>"
+-------------------------------------------
+"            <class 'email.errors.MessageDefect'>"
+-------------------------------------------
+"                <class 'email.errors.NoBoundaryInMultipartDefect'>"
+-------------------------------------------
+"                <class 'email.errors.StartBoundaryNotFoundDefect'>"
+-------------------------------------------
+"                <class 'email.errors.CloseBoundaryNotFoundDefect'>"
+-------------------------------------------
+"                <class 'email.errors.FirstHeaderLineIsContinuationDefect'>"
+-------------------------------------------
+"                <class 'email.errors.MisplacedEnvelopeHeaderDefect'>"
+-------------------------------------------
+"                <class 'email.errors.MissingHeaderBodySeparatorDefect'>"
+-------------------------------------------
+"                <class 'email.errors.MultipartInvariantViolationDefect'>"
+-------------------------------------------
+"                <class 'email.errors.InvalidMultipartContentTransferEncodingDefect'>"
+-------------------------------------------
+"                <class 'email.errors.UndecodableBytesDefect'>"
+-------------------------------------------
+"                <class 'email.errors.InvalidBase64PaddingDefect'>"
+-------------------------------------------
+"                <class 'email.errors.InvalidBase64CharactersDefect'>"
+-------------------------------------------
+"                <class 'email.errors.InvalidBase64LengthDefect'>"
+-------------------------------------------
+"                <class 'email.errors.HeaderDefect'>"
+-------------------------------------------
+"                    <class 'email.errors.InvalidHeaderDefect'>"
+-------------------------------------------
+"                    <class 'email.errors.HeaderMissingRequiredValue'>"
+-------------------------------------------
+"                    <class 'email.errors.NonPrintableDefect'>"
+-------------------------------------------
+"                    <class 'email.errors.ObsoleteHeaderDefect'>"
+-------------------------------------------
+"                    <class 'email.errors.NonASCIILocalPartDefect'>"
+-------------------------------------------
+"                    <class 'email.errors.InvalidDateDefect'>"
+-------------------------------------------
+"            <class 'pygments.util.ClassNotFound'>"
+-------------------------------------------
+"            <class 'IPython.lib.clipboard.ClipboardEmpty'>"
+-------------------------------------------
+"            <class 'IPython.core.magics.code.MacroToEdit'>"
+-------------------------------------------
+"            <class 'packaging.version.InvalidVersion'>"
+-------------------------------------------
+"        <class 'Warning'>"
+-------------------------------------------
+"            <class 'BytesWarning'>"
+-------------------------------------------
+"            <class 'DeprecationWarning'>"
+-------------------------------------------
+"                <class 'IPython.core.interactiveshell.ProvisionalWarning'>"
+-------------------------------------------
+"            <class 'EncodingWarning'>"
+-------------------------------------------
+"            <class 'FutureWarning'>"
+-------------------------------------------
+"                <class 'IPython.core.completer.ProvisionalCompleterWarning'>"
+-------------------------------------------
+"            <class 'ImportWarning'>"
+-------------------------------------------
+"            <class 'PendingDeprecationWarning'>"
+-------------------------------------------
+"            <class 'ResourceWarning'>"
+-------------------------------------------
+"            <class 'RuntimeWarning'>"
+-------------------------------------------
+"                <class 'zmq.asyncio.ProactorSelectorThreadWarning'>"
+-------------------------------------------
+"                <class 'dateutil.parser._parser.UnknownTimezoneWarning'>"
+-------------------------------------------
+"            <class 'SyntaxWarning'>"
+-------------------------------------------
+"            <class 'UnicodeWarning'>"
+-------------------------------------------
+"            <class 'UserWarning'>"
+-------------------------------------------
+"                <class 'getpass.GetPassWarning'>"
+-------------------------------------------
+"                <class 'IPython.core.formatters.FormatterWarning'>"
+-------------------------------------------
+"            <class 'dateutil.tz.DeprecatedTzFormatWarning'>"
+-------------------------------------------
+"        <class 'ExceptionGroup'>"
+-------------------------------------------
+"        <class 'warnings._OptionError'>"
+-------------------------------------------
+"        <class 'runpy._Error'>"
+-------------------------------------------
+"        <class 're.error'>"
+-------------------------------------------
+"        <class 'locale.Error'>"
+-------------------------------------------
+"        <class 'subprocess.SubprocessError'>"
+-------------------------------------------
+"            <class 'subprocess.CalledProcessError'>"
+-------------------------------------------
+"            <class 'subprocess.TimeoutExpired'>"
+-------------------------------------------
+"        <class 'zmq.error.ZMQBaseError'>"
+-------------------------------------------
+"            <class 'zmq.error.ZMQError'>"
+-------------------------------------------
+"                <class 'zmq.error.ContextTerminated'>"
+-------------------------------------------
+"                <class 'zmq.error.Again'>"
+-------------------------------------------
+"                <class 'zmq.error.InterruptedSystemCall'>"
+-------------------------------------------
+"            <class 'zmq.error.ZMQBindError'>"
+-------------------------------------------
+"            <class 'zmq.error.NotDone'>"
+-------------------------------------------
+"        <class 'copy.Error'>"
+-------------------------------------------
+"        <class 'struct.error'>"
+-------------------------------------------
+"        <class '_pickle.PickleError'>"
+-------------------------------------------
+"            <class '_pickle.PicklingError'>"
+-------------------------------------------
+"            <class '_pickle.UnpicklingError'>"
+-------------------------------------------
+"        <class 'pickle._Stop'>"
+-------------------------------------------
+"        <class 'tokenize.TokenError'>"
+-------------------------------------------
+"        <class 'tokenize.StopTokenizing'>"
+-------------------------------------------
+"        <class 'concurrent.futures._base.Error'>"
+-------------------------------------------
+"            <class 'concurrent.futures._base.CancelledError'>"
+-------------------------------------------
+"            <class 'concurrent.futures._base.InvalidStateError'>"
+-------------------------------------------
+"        <class 'socket._GiveupOnSendfile'>"
+-------------------------------------------
+"        <class 'binascii.Incomplete'>"
+-------------------------------------------
+"        <class 'inspect.ClassFoundException'>"
+-------------------------------------------
+"        <class 'inspect.EndOfBlock'>"
+-------------------------------------------
+"        <class 'asyncio.exceptions.InvalidStateError'>"
+-------------------------------------------
+"        <class 'asyncio.exceptions.LimitOverrunError'>"
+-------------------------------------------
+"        <class 'asyncio.queues.QueueEmpty'>"
+-------------------------------------------
+"        <class 'asyncio.queues.QueueFull'>"
+-------------------------------------------
+"        <class 'zlib.error'>"
+-------------------------------------------
+"        <class '_lzma.LZMAError'>"
+-------------------------------------------
+"        <class 'shutil.RegistryError'>"
+-------------------------------------------
+"        <class 'shutil._GiveupOnFastCopy'>"
+-------------------------------------------
+"        <class 'traitlets.traitlets.TraitError'>"
+-------------------------------------------
+"        <class '_queue.Empty'>"
+-------------------------------------------
+"        <class 'queue.Full'>"
+-------------------------------------------
+"        <class 'ctypes.ArgumentError'>"
+-------------------------------------------
+"        <class '_ctypes.COMError'>"
+-------------------------------------------
+"        <class 'tornado.concurrent.ReturnValueIgnoredError'>"
+-------------------------------------------
+"        <class 'argparse.ArgumentError'>"
+-------------------------------------------
+"        <class 'argparse.ArgumentTypeError'>"
+-------------------------------------------
+"        <class 'traitlets.config.loader.ConfigError'>"
+-------------------------------------------
+"            <class 'traitlets.config.loader.ConfigLoaderError'>"
+-------------------------------------------
+"                <class 'traitlets.config.loader.ArgumentError'>"
+-------------------------------------------
+"            <class 'traitlets.config.loader.ConfigFileNotFound'>"
+-------------------------------------------
+"        <class 'traitlets.config.configurable.ConfigurableError'>"
+-------------------------------------------
+"            <class 'traitlets.config.configurable.MultipleInstanceError'>"
+-------------------------------------------
+"        <class 'traitlets.config.application.ApplicationError'>"
+-------------------------------------------
+"        <class 'jupyter_client.channels.InvalidPortNumber'>"
+-------------------------------------------
+"        <class 'jupyter_client.localinterfaces.NoIPAddresses'>"
+-------------------------------------------
+"        <class '_csv.Error'>"
+-------------------------------------------
+"        <class 'zipfile.BadZipFile'>"
+-------------------------------------------
+"        <class 'zipfile.LargeZipFile'>"
+-------------------------------------------
+"        <class 'email.errors.MessageError'>"
+-------------------------------------------
+"            <class 'email.errors.MessageParseError'>"
+-------------------------------------------
+"                <class 'email.errors.HeaderParseError'>"
+-------------------------------------------
+"                <class 'email.errors.BoundaryError'>"
+-------------------------------------------
+"            <class 'email.errors.MultipartConversionError'>"
+-------------------------------------------
+"            <class 'email.errors.CharsetError'>"
+-------------------------------------------
+"        <class 'jupyter_client.multikernelmanager.DuplicateKernelError'>"
+-------------------------------------------
+"        <class 'pydoc.ErrorDuringImport'>"
+-------------------------------------------
+"        <class 'executing.executing.NotOneValueFound'>"
+-------------------------------------------
+"        <class 'executing._exceptions.KnownIssue'>"
+-------------------------------------------
+"        <class 'executing._exceptions.VerifierFailure'>"
+-------------------------------------------
+"        <class 'pure_eval.utils.CannotEval'>"
+-------------------------------------------
+"        <class 'pygments.util.OptionError'>"
+-------------------------------------------
+"        <class 'bdb.BdbQuit'>"
+-------------------------------------------
+"        <class 'pdb.Restart'>"
+-------------------------------------------
+"        <class 'IPython.utils.process.FindCmdError'>"
+-------------------------------------------
+"        <class 'IPython.utils.path.HomeDirError'>"
+-------------------------------------------
+"        <class 'IPython.core.profiledir.ProfileDirError'>"
+-------------------------------------------
+"        <class 'IPython.core.error.IPythonCoreError'>"
+-------------------------------------------
+"            <class 'IPython.core.error.TryNext'>"
+-------------------------------------------
+"            <class 'IPython.core.error.UsageError'>"
+-------------------------------------------
+"            <class 'IPython.core.error.StdinNotImplementedError'>"
+-------------------------------------------
+"        <class 'IPython.core.error.InputRejected'>"
+-------------------------------------------
+"        <class 'getopt.GetoptError'>"
+-------------------------------------------
+"        <class 'pygments.filters.ErrorToken'>"
+-------------------------------------------
+"        <class 'IPython.core.prefilter.PrefilterError'>"
+-------------------------------------------
+"        <class 'IPython.core.alias.AliasError'>"
+-------------------------------------------
+"            <class 'IPython.core.alias.InvalidAliasError'>"
+-------------------------------------------
+"        <class 'sqlite3.Error'>"
+-------------------------------------------
+"            <class 'sqlite3.InterfaceError'>"
+-------------------------------------------
+"            <class 'sqlite3.DatabaseError'>"
+-------------------------------------------
+"                <class 'sqlite3.InternalError'>"
+-------------------------------------------
+"                <class 'sqlite3.OperationalError'>"
+-------------------------------------------
+"                <class 'sqlite3.ProgrammingError'>"
+-------------------------------------------
+"                <class 'sqlite3.IntegrityError'>"
+-------------------------------------------
+"                <class 'sqlite3.DataError'>"
+-------------------------------------------
+"                <class 'sqlite3.NotSupportedError'>"
+-------------------------------------------
+"        <class 'sqlite3.Warning'>"
+-------------------------------------------
+"        <class 'IPython.core.interactiveshell.SpaceInInput'>"
+-------------------------------------------
+"        <class 'xml.dom.DOMException'>"
+-------------------------------------------
+"            <class 'xml.dom.IndexSizeErr'>"
+-------------------------------------------
+"            <class 'xml.dom.DomstringSizeErr'>"
+-------------------------------------------
+"            <class 'xml.dom.HierarchyRequestErr'>"
+-------------------------------------------
+"            <class 'xml.dom.WrongDocumentErr'>"
+-------------------------------------------
+"            <class 'xml.dom.InvalidCharacterErr'>"
+-------------------------------------------
+"            <class 'xml.dom.NoDataAllowedErr'>"
+-------------------------------------------
+"            <class 'xml.dom.NoModificationAllowedErr'>"
+-------------------------------------------
+"            <class 'xml.dom.NotFoundErr'>"
+-------------------------------------------
+"            <class 'xml.dom.NotSupportedErr'>"
+-------------------------------------------
+"            <class 'xml.dom.InuseAttributeErr'>"
+-------------------------------------------
+"            <class 'xml.dom.InvalidStateErr'>"
+-------------------------------------------
+"            <class 'xml.dom.SyntaxErr'>"
+-------------------------------------------
+"            <class 'xml.dom.InvalidModificationErr'>"
+-------------------------------------------
+"            <class 'xml.dom.NamespaceErr'>"
+-------------------------------------------
+"            <class 'xml.dom.InvalidAccessErr'>"
+-------------------------------------------
+"            <class 'xml.dom.ValidationErr'>"
+-------------------------------------------
+"        <class 'prompt_toolkit.validation.ValidationError'>"
+-------------------------------------------
+"        <class 'prompt_toolkit.buffer.EditReadOnlyBuffer'>"
+-------------------------------------------
+"        <class 'prompt_toolkit.buffer._Retry'>"
+-------------------------------------------
+"        <class 'prompt_toolkit.layout.layout.InvalidLayoutError'>"
+-------------------------------------------
+"        <class 'prompt_toolkit.renderer.HeightIsUnknownError'>"
+-------------------------------------------
+"        <class 'IPython.core.guarded_eval.GuardRejection'>"
+-------------------------------------------
+"        <class 'parso.parser.ParserSyntaxError'>"
+-------------------------------------------
+"        <class 'parso.parser.InternalParseError'>"
+-------------------------------------------
+"        <class 'parso.python.diff._PositionUpdatingFinished'>"
+-------------------------------------------
+"        <class 'jedi.inference.helpers.SimpleGetItemNotFound'>"
+-------------------------------------------
+"        <class 'jedi.inference.utils.UncaughtAttributeError'>"
+-------------------------------------------
+"        <class 'jedi.inference.base_value.HasNoContext'>"
+-------------------------------------------
+"        <class 'jedi.inference.arguments.ParamIssue'>"
+-------------------------------------------
+"        <class 'jedi.api.exceptions._JediError'>"
+-------------------------------------------
+"            <class 'jedi.api.exceptions.InternalError'>"
+-------------------------------------------
+"            <class 'jedi.api.exceptions.WrongVersion'>"
+-------------------------------------------
+"            <class 'jedi.api.exceptions.RefactoringError'>"
+-------------------------------------------
+"        <class 'jedi.api.helpers.OnErrorLeaf'>"
+-------------------------------------------
+"        <class 'jedi.api.environment.InvalidPythonEnvironment'>"
+-------------------------------------------
+"        <class 'http.client.HTTPException'>"
+-------------------------------------------
+"            <class 'http.client.NotConnected'>"
+-------------------------------------------
+"            <class 'http.client.InvalidURL'>"
+-------------------------------------------
+"            <class 'http.client.UnknownProtocol'>"
+-------------------------------------------
+"            <class 'http.client.UnknownTransferEncoding'>"
+-------------------------------------------
+"            <class 'http.client.UnimplementedFileMode'>"
+-------------------------------------------
+"            <class 'http.client.IncompleteRead'>"
+-------------------------------------------
+"            <class 'http.client.ImproperConnectionState'>"
+-------------------------------------------
+"                <class 'http.client.CannotSendRequest'>"
+-------------------------------------------
+"                <class 'http.client.CannotSendHeader'>"
+-------------------------------------------
+"                <class 'http.client.ResponseNotReady'>"
+-------------------------------------------
+"            <class 'http.client.BadStatusLine'>"
+-------------------------------------------
+"                <class 'http.client.RemoteDisconnected'>"
+-------------------------------------------
+"            <class 'http.client.LineTooLong'>"
+-------------------------------------------
+"        <class 'IPython.core.magics.code.InteractivelyDefined'>"
+-------------------------------------------
+"        <class 'IPython.terminal.embed.KillEmbedded'>"
+-------------------------------------------
+"        <class 'psutil.Error'>"
+-------------------------------------------
+"            <class 'psutil.NoSuchProcess'>"
+-------------------------------------------
+"                <class 'psutil.ZombieProcess'>"
+-------------------------------------------
+"            <class 'psutil.AccessDenied'>"
+-------------------------------------------
+"            <class 'psutil.TimeoutExpired'>"
+-------------------------------------------
+"        <class '_psutil_windows.Error'>"
+-------------------------------------------
+"        <class '_psutil_windows.TimeoutExpired'>"
+-------------------------------------------
+"        <class '_psutil_windows.TimeoutAbandoned'>"
+-------------------------------------------
+"        <class 'tornado.gen.KeyReuseError'>"
+-------------------------------------------
+"        <class 'tornado.gen.UnknownKeyError'>"
+-------------------------------------------
+"        <class 'tornado.gen.LeakedCallbackError'>"
+-------------------------------------------
+"        <class 'tornado.gen.BadYieldError'>"
+-------------------------------------------
+"        <class 'tornado.gen.ReturnValueIgnoredError'>"
+-------------------------------------------
+"        <class 'tornado.gen.Return'>"
+-------------------------------------------
+"        <class 'tornado.queues.QueueEmpty'>"
+-------------------------------------------
+"        <class 'tornado.queues.QueueFull'>"
+-------------------------------------------
+"        <class '_pydev_bundle._pydev_saved_modules.DebuggerInitializationError'>"
+-------------------------------------------
+"        <class 'xml.parsers.expat.ExpatError'>"
+-------------------------------------------
+"        <class 'xmlrpc.client.Error'>"
+-------------------------------------------
+"            <class 'xmlrpc.client.ProtocolError'>"
+-------------------------------------------
+"            <class 'xmlrpc.client.ResponseError'>"
+-------------------------------------------
+"            <class 'xmlrpc.client.Fault'>"
+-------------------------------------------
+"        <class '_pydevd_bundle.pydevd_runpy._Error'>"
+-------------------------------------------
+"        <class '_pydevd_bundle.pydevd_resolver.UnableToResolveVariableException'>"
+-------------------------------------------
+"        <class '_pydev_bundle.pydev_monkey.InvalidTypeInArgsException'>"
+-------------------------------------------
+"    <class 'GeneratorExit'>"
+-------------------------------------------
+"    <class 'KeyboardInterrupt'>"
+-------------------------------------------
+"    <class 'SystemExit'>"
+-------------------------------------------
+"    <class 'asyncio.exceptions.CancelledError'>"
+-------------------------------------------
+"error: division by zero"
+-------------------------------------------
+"error: division by zero"
+-------------------------------------------
+"Error: 'grape'"
+-------------------------------------------
+"Error: list index out of range"
+-------------------------------------------
+"Error: No module named 'non_existent_module'"
+-------------------------------------------
+"Error: No module named 'non_existent_module'"
+-------------------------------------------
+"1)Use Specific Exception Types \n2)Avoid Empty except Blocks: \n3)Use finally for Cleanup \n4)Avoid Catching Everything \n5)Use Logging \n6)Use Reraise Exceptions \n7)Custom Exception Classes"
+-------------------------------------------
