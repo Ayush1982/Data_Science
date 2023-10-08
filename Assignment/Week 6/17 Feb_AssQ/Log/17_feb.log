@@ -1,0 +1,47 @@
+2023-10-08 15:23:22,096 root INFO  pathe of mongo client is : mongodb+srv://ayushgautam9259:ZHuoSCwFVL0ENlUt@test.wb9eq63.mongodb.net/?retryWrites=true&w=majority
+2023-10-08 15:23:23,599 root INFO  folder named Mongo_test have been created
+2023-10-08 15:23:24,069 root INFO  inserting have been done
+2023-10-08 15:28:56,976 root INFO  pathe of mongo client is : mongodb+srv://ayushgautam9259:ZHuoSCwFVL0ENlUt@test.wb9eq63.mongodb.net/?retryWrites=true&w=majority
+2023-10-08 15:29:02,862 root INFO  folder named Mongo_test have been created
+2023-10-08 15:29:03,271 root INFO  inserting have been done
+2023-10-08 15:30:18,056 root INFO  pathe of mongo client is : mongodb+srv://ayushgautam9259:ZHuoSCwFVL0ENlUt@test.wb9eq63.mongodb.net/?retryWrites=true&w=majority
+2023-10-08 15:30:37,491 root INFO  pathe of mongo client is : mongodb+srv://ayushgautam9259:ZHuoSCwFVL0ENlUt@test.wb9eq63.mongodb.net/?retryWrites=true&w=majority
+2023-10-08 15:35:28,648 root INFO  pathe of mongo client is : mongodb+srv://ayushgautam9259:ZHuoSCwFVL0ENlUt@test.wb9eq63.mongodb.net/?retryWrites=true&w=majority
+2023-10-08 15:35:28,651 root DEBUG  {'name': 'xyz', 'roll_no': 1, 'id': 123}
+2023-10-08 15:35:28,652 root DEBUG  {'name': 'qwe', 'roll_no': 2, 'id': 124}
+2023-10-08 15:35:28,654 root DEBUG  {'name': 'asd', 'roll_no': 3, 'id': 125}
+2023-10-08 15:35:28,656 root DEBUG  {'name': 'zxc', 'roll_no': 4, 'id': 126}
+2023-10-08 15:35:28,657 root INFO  folder named Mongo_test have been created
+2023-10-08 15:35:31,286 root INFO  inserting have been done
+2023-10-08 15:36:32,001 root INFO  pathe of mongo client is : mongodb+srv://ayushgautam9259:ZHuoSCwFVL0ENlUt@test.wb9eq63.mongodb.net/?retryWrites=true&w=majority
+2023-10-08 15:36:32,003 root DEBUG  {'name': 'xyz', 'roll_no': 1, 'id': 123}
+2023-10-08 15:36:32,005 root DEBUG  {'name': 'qwe', 'roll_no': 2, 'id': 124}
+2023-10-08 15:36:32,005 root DEBUG  {'name': 'asd', 'roll_no': 3, 'id': 125}
+2023-10-08 15:36:32,006 root DEBUG  {'name': 'zxc', 'roll_no': 4, 'id': 126}
+2023-10-08 15:36:32,007 root INFO  folder named Mongo_test have been created
+2023-10-08 15:36:32,896 root INFO  inserting have been done
+2023-10-08 20:17:15,284 root INFO  pathe of mongo client is : mongodb+srv://ayushgautam9259:ZHuoSCwFVL0ENlUt@test.wb9eq63.mongodb.net/?retryWrites=true&w=majority
+2023-10-08 20:17:15,310 root DEBUG  {'name': 'xyz', 'roll_no': 1, 'id': 123}
+2023-10-08 20:17:15,311 root DEBUG  {'name': 'qwe', 'roll_no': 2, 'id': 124}
+2023-10-08 20:17:15,313 root DEBUG  {'name': 'asd', 'roll_no': 3, 'id': 125}
+2023-10-08 20:17:15,314 root DEBUG  {'name': 'zxc', 'roll_no': 4, 'id': 126}
+2023-10-08 20:17:15,314 root INFO  folder named Mongo_test have been created
+2023-10-08 20:17:16,800 root INFO  inserting have been done
+2023-10-08 20:26:21,095 root INFO  one itemn inserted
+2023-10-08 20:26:21,131 root INFO  many itemn inserted
+2023-10-08 20:43:44,497 root INFO  pathe of mongo client is : mongodb+srv://ayushgautam9259:ZHuoSCwFVL0ENlUt@test.wb9eq63.mongodb.net/?retryWrites=true&w=majority
+2023-10-08 20:43:44,500 root DEBUG  {'name': 'xyz', 'roll_no': 1, 'id': 123}
+2023-10-08 20:43:44,506 root DEBUG  {'name': 'qwe', 'roll_no': 2, 'id': 124}
+2023-10-08 20:43:44,512 root DEBUG  {'name': 'asd', 'roll_no': 3, 'id': 125}
+2023-10-08 20:43:44,513 root DEBUG  {'name': 'zxc', 'roll_no': 4, 'id': 126}
+2023-10-08 20:43:44,514 root INFO  folder named Mongo_test have been created
+2023-10-08 20:43:44,993 root INFO  inserting have been done
+2023-10-08 20:43:49,575 root INFO  one itemn inserted
+2023-10-08 20:43:49,609 root INFO  many itemn inserted
+2023-10-08 20:52:18,776 root INFO  pathe of mongo client is : mongodb+srv://ayushgautam9259:ZHuoSCwFVL0ENlUt@test.wb9eq63.mongodb.net/?retryWrites=true&w=majority
+2023-10-08 20:52:18,778 root DEBUG  {'name': 'xyz', 'roll_no': 1, 'id': 123}
+2023-10-08 20:52:18,785 root DEBUG  {'name': 'qwe', 'roll_no': 2, 'id': 124}
+2023-10-08 20:52:18,792 root DEBUG  {'name': 'asd', 'roll_no': 3, 'id': 125}
+2023-10-08 20:52:18,793 root DEBUG  {'name': 'zxc', 'roll_no': 4, 'id': 126}
+2023-10-08 20:52:18,794 root INFO  folder named Mongo_test have been created
+2023-10-08 20:52:20,332 root INFO  inserting have been done
