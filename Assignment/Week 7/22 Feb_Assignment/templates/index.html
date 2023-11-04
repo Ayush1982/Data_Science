@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Scraped YouTube Data</title>
+</head>
+<body>
+    <h1>Scraped YouTube Data</h1>
+
+    <h2>Video URLs</h2>
+    <ul>
+        {% for v in video %}
+            <li>{{ v }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Thumbnails</h2>
+    <ul>
+        {% for thumb in thumbnail %}
+            <img src="{{ thumb }}" alt="Thumbnail">
+        {% endfor %}
+    </ul>
+
+    <h2>Video Titles</h2>
+    <ul>
+        {% for t in title %}
+            <li>{{ t }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Views</h2>
+    <ul>
+        {% for view in views %}
+            <li>{{ view }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Durations</h2>
+    <ul>
+        {% for d in durations %}
+            <li>{{ d }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
